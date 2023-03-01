@@ -225,7 +225,7 @@
             // 
             this.picGit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picGit.Image = global::ClickerWeb.Properties.Resources.GitHub_Mark_32px;
-            this.picGit.Location = new System.Drawing.Point(318, 265);
+            this.picGit.Location = new System.Drawing.Point(318, 264);
             this.picGit.Name = "picGit";
             this.picGit.Size = new System.Drawing.Size(29, 26);
             this.picGit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -237,7 +237,7 @@
             // 
             this.picNAB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picNAB.Image = ((System.Drawing.Image)(resources.GetObject("picNAB.Image")));
-            this.picNAB.Location = new System.Drawing.Point(343, 265);
+            this.picNAB.Location = new System.Drawing.Point(343, 264);
             this.picNAB.Name = "picNAB";
             this.picNAB.Size = new System.Drawing.Size(29, 26);
             this.picNAB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -249,7 +249,7 @@
             // 
             this.picTG.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picTG.Image = global::ClickerWeb.Properties.Resources.tg_ico;
-            this.picTG.Location = new System.Drawing.Point(290, 265);
+            this.picTG.Location = new System.Drawing.Point(290, 264);
             this.picTG.Name = "picTG";
             this.picTG.Size = new System.Drawing.Size(29, 26);
             this.picTG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
