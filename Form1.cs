@@ -14,7 +14,7 @@ namespace ClickerWeb
         public Form1()
         {
             InitializeComponent();
-            //openFileDialog1.InitialDirectory = Application.StartupPath.ToString();
+            openFileDialog1.InitialDirectory = Application.StartupPath.ToString();
             comboBox1.SelectedIndex = 0;
         }
 
@@ -92,11 +92,6 @@ namespace ClickerWeb
             }
         }
 
-        private void picNAB_Click(object sender, EventArgs e)
-        {
-            Process.Start("https://notabug.org/Okronix/");
-        }
-
         private void picGit_Click(object sender, EventArgs e)
         {
             Process.Start("https://github.com/Okronix/");
@@ -104,7 +99,7 @@ namespace ClickerWeb
 
         private void picTG_Click(object sender, EventArgs e)
         {
-            Process.Start("https://t.me/FRAMEDEV/");
+            Process.Start("https://t.me/devFRAME/");
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -125,10 +120,6 @@ namespace ClickerWeb
             else if (comboBox1.Text == "ZippyShare.com")
             {
                 butid = "dlbutton";
-            }
-            else if (comboBox1.Text == "AnonFiles.com")
-            {
-                butid = "download-url";
             }
             else { }
         }
@@ -209,7 +200,7 @@ namespace ClickerWeb
             t.Active = true;
 
             t.SetToolTip(picTG, "Перейти в телеграм канал автора");
-            t.SetToolTip(picNAB, "Перейти на NotABug автора");
+            t.SetToolTip(picGit, "Перейти на GitHub автора");
         }
 
         private void button1_Click(object sender, EventArgs e)

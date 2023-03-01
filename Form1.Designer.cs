@@ -43,12 +43,10 @@
             this.btn_delete = new System.Windows.Forms.Button();
             this.btn_add = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.picGit = new System.Windows.Forms.PictureBox();
-            this.picNAB = new System.Windows.Forms.PictureBox();
             this.picTG = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picGit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picNAB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTG)).BeginInit();
             this.SuspendLayout();
             // 
@@ -134,7 +132,6 @@
             this.comboBox1.Items.AddRange(new object[] {
             "Upload.ee",
             "ZippyShare.com",
-            "AnonFiles.com",
             "Другой id"});
             this.comboBox1.Location = new System.Drawing.Point(12, 269);
             this.comboBox1.Name = "comboBox1";
@@ -211,21 +208,21 @@
             this.btn_clear.UseVisualStyleBackColor = true;
             this.btn_clear.Click += new System.EventHandler(this.btn_clear_Click);
             // 
-            // button1
+            // btnClear
             // 
-            this.button1.Location = new System.Drawing.Point(353, 191);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(19, 20);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnClear.Location = new System.Drawing.Point(353, 191);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(19, 20);
+            this.btnClear.TabIndex = 21;
+            this.btnClear.Text = "X";
+            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.button1_Click);
             // 
             // picGit
             // 
             this.picGit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picGit.Image = global::ClickerWeb.Properties.Resources.GitHub_Mark_32px;
-            this.picGit.Location = new System.Drawing.Point(318, 264);
+            this.picGit.Location = new System.Drawing.Point(343, 264);
             this.picGit.Name = "picGit";
             this.picGit.Size = new System.Drawing.Size(29, 26);
             this.picGit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -233,23 +230,11 @@
             this.picGit.TabStop = false;
             this.picGit.Click += new System.EventHandler(this.picGit_Click);
             // 
-            // picNAB
-            // 
-            this.picNAB.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.picNAB.Image = ((System.Drawing.Image)(resources.GetObject("picNAB.Image")));
-            this.picNAB.Location = new System.Drawing.Point(343, 264);
-            this.picNAB.Name = "picNAB";
-            this.picNAB.Size = new System.Drawing.Size(29, 26);
-            this.picNAB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picNAB.TabIndex = 11;
-            this.picNAB.TabStop = false;
-            this.picNAB.Click += new System.EventHandler(this.picNAB_Click);
-            // 
             // picTG
             // 
             this.picTG.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picTG.Image = global::ClickerWeb.Properties.Resources.tg_ico;
-            this.picTG.Location = new System.Drawing.Point(290, 264);
+            this.picTG.Location = new System.Drawing.Point(315, 264);
             this.picTG.Name = "picTG";
             this.picTG.Size = new System.Drawing.Size(29, 26);
             this.picTG.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -264,7 +249,7 @@
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(384, 327);
             this.Controls.Add(this.picGit);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btn_clear);
             this.Controls.Add(this.btn_add);
@@ -274,7 +259,6 @@
             this.Controls.Add(this.btn_scheduler);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.picNAB);
             this.Controls.Add(this.picTG);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btn_choose_file);
@@ -288,7 +272,6 @@
             this.Text = "ClickerWeb";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picGit)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picNAB)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -304,7 +287,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox picTG;
-        private System.Windows.Forms.PictureBox picNAB;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button btn_scheduler;
@@ -313,7 +295,7 @@
         private System.Windows.Forms.Button btn_delete;
         private System.Windows.Forms.Button btn_add;
         private System.Windows.Forms.Button btn_clear;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.PictureBox picGit;
     }
 }
