@@ -104,6 +104,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="downloads_ico.ico" />
+    <None Include="Resources\web_icon.png" />
     <None Include="Resources\GitHub-Mark-32px.png" />
     <None Include="Resources\git_ico.png" />
     <None Include="Resources\tg_ico.png" />

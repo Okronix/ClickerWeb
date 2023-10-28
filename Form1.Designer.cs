@@ -44,8 +44,10 @@
             this.btn_add = new System.Windows.Forms.Button();
             this.btn_clear = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.picWeb = new System.Windows.Forms.PictureBox();
             this.picGit = new System.Windows.Forms.PictureBox();
             this.picTG = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picWeb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTG)).BeginInit();
             this.SuspendLayout();
@@ -218,6 +220,18 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.button1_Click);
             // 
+            // picWeb
+            // 
+            this.picWeb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.picWeb.Image = global::ClickerWeb.Properties.Resources.web_icon;
+            this.picWeb.Location = new System.Drawing.Point(285, 264);
+            this.picWeb.Name = "picWeb";
+            this.picWeb.Size = new System.Drawing.Size(29, 26);
+            this.picWeb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picWeb.TabIndex = 23;
+            this.picWeb.TabStop = false;
+            this.picWeb.Click += new System.EventHandler(this.picWeb_Click);
+            // 
             // picGit
             // 
             this.picGit.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -248,6 +262,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(384, 327);
+            this.Controls.Add(this.picWeb);
             this.Controls.Add(this.picGit);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.listBox1);
@@ -271,6 +286,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ClickerWeb";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picWeb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picGit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picTG)).EndInit();
             this.ResumeLayout(false);
@@ -297,6 +313,7 @@
         private System.Windows.Forms.Button btn_clear;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.PictureBox picGit;
+        private System.Windows.Forms.PictureBox picWeb;
     }
 }
 

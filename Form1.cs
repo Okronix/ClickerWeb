@@ -207,5 +207,10 @@ namespace ClickerWeb
         {
             textBox2.Text = "";
         }
+
+        private void picWeb_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://okronix.ru");
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace ClickerWeb.Properties {
     // с помощью такого средства, как ResGen или Visual Studio.
     // Чтобы добавить или удалить член, измените файл .ResX и снова запустите ResGen
     // с параметром /str или перестройте свой проект VS.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -63,16 +63,6 @@ namespace ClickerWeb.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap git_ico {
-            get {
-                object obj = ResourceManager.GetObject("git_ico", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap GitHub_Mark_32px {
             get {
                 object obj = ResourceManager.GetObject("GitHub-Mark-32px", resourceCulture);
@@ -86,6 +76,16 @@ namespace ClickerWeb.Properties {
         internal static System.Drawing.Bitmap tg_ico {
             get {
                 object obj = ResourceManager.GetObject("tg_ico", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap web_icon {
+            get {
+                object obj = ResourceManager.GetObject("web_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
