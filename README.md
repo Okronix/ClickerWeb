@@ -28,7 +28,7 @@
 4) Нажать на кнопку "Запуск"
 
 ## Разработчик
-- Телеграм канал автора: [@devFRAME](https://t.me/+5SHcAW68EoZjN2Vi) 
+- Телеграм канал автора: [@devFRAME](https://t.me/+BG1-5ebkjUVjYjNi)
 
 ## Поддержать
 - CloudTips(Карта): https://pay.cloudtips.ru/p/105e5b0a
