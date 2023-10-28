@@ -28,7 +28,8 @@
 4) Нажать на кнопку "Запуск"
 
 ## Разработчик
-- Телеграм канал автора: [@devFRAME](https://t.me/+BG1-5ebkjUVjYjNi)
+- Web: [Okronix.ru](https://okronix.ru)
+- Телеграм канал: [@devFRAME](https://t.me/+BG1-5ebkjUVjYjNi)
 
 ## Поддержать
 - CloudTips(Карта): https://pay.cloudtips.ru/p/105e5b0a
